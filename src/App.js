@@ -29,7 +29,7 @@ function App() {
       setCurrentLogo(wrongLogo);
       setResultMessage('Você errou');
     }
-    setShowRadioButtons(false); // Esconde os radio buttons após a escolha
+    setShowRadioButtons(false); 
   };
 
   const handleRetry = () => {
