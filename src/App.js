@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import logo from './R.gif';
-import newLogo from './icegif-854.gif'; // Substitua pelo caminho da nova imagem
-import correctLogo from './happy.gif'; // Imagem para resposta correta
-import wrongLogo from './0edb44b90b82e348b9233038260323e0.gif'; // Imagem para resposta errada
+import newLogo from './icegif-854.gif'; 
+import correctLogo from './happy.gif';  
+import wrongLogo from './0edb44b90b82e348b9233038260323e0.gif';  
 import './App.css';
 
 function App() {
@@ -10,17 +10,16 @@ function App() {
   const [showRadioButtons, setShowRadioButtons] = useState(false);
   const [resultMessage, setResultMessage] = useState('');
   const [currentLogo, setCurrentLogo] = useState(newLogo);
-  const [key, setKey] = useState(0); // Estado para forçar re-renderização
+  const [key, setKey] = useState(0);  
 
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setShowOldLogo(false);
       setShowRadioButtons(true);
-    }, 12000); // 2000 ms de delay + 5000 ms de animação
+    }, 12000); 
 
     return () => clearTimeout(timer1);
-  }, [key]); // Adicionando key como dependência para reiniciar a animação
-
+  }, [key]); 
   const handleOptionChange = (e) => {
     const value = e.target.value;
     if (value === '6') {
@@ -38,7 +37,7 @@ function App() {
     setShowRadioButtons(false);
     setResultMessage('');
     setCurrentLogo(newLogo);
-    setKey(prevKey => prevKey + 1); // Muda o key para forçar re-renderização
+    setKey(prevKey => prevKey + 1); 
   };
 
   return (
