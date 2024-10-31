@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/halloweenquestion/static/css/main.f07315cd.css",
+    "main.js": "/halloweenquestion/static/js/main.73dab8d7.js",
+    "static/media/gif": "/halloweenquestion/static/media/0edb44b90b82e348b9233038260323e0.5aa21891854e7f99ce25.gif",
+    "static/media/R.gif": "/halloweenquestion/static/media/R.edcfeb3fb3ad975cbd5b.gif",
+    "static/media/icegif-854.gif": "/halloweenquestion/static/media/icegif-854.271cd2645e0d9559643c.gif",
+    "static/media/happy.gif": "/halloweenquestion/static/media/happy.67e74e217e8ce056b429.gif",
+    "index.html": "/halloweenquestion/index.html",
+    "main.f07315cd.css.map": "/halloweenquestion/static/css/main.f07315cd.css.map",
+    "main.73dab8d7.js.map": "/halloweenquestion/static/js/main.73dab8d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f07315cd.css",
+    "static/js/main.73dab8d7.js"
+  ]
+}
